@@ -1,0 +1,38 @@
+body {
+    background-color: lightslategray;
+  }
+  
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 25px;
+    border: 1px solid white;
+}
+
+.row {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  width: 250px;
+}
+
+#booklist a:link, a:visited{
+  color: white;
+  text-align: center;
+}
+
+.book {
+    background-color: azure;
+    font-family: arial;
+    font-size: 15px;
+  }
+
+footer {
+    text-align: center;
+}
