@@ -1,5 +1,5 @@
 body {
-    background-color: lightslategray;
+    background-color: lightslategrey;
   }
   
 h1 {
@@ -11,9 +11,19 @@ h1 {
     border: 1px solid white;
 }
 
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  text-align: center;
+  margin: 10px;
+  padding: 25px;
+}
+
 .row {
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
+  align-self: center;
 }
 
 /* Create two equal columns that sits next to each other */
@@ -28,10 +38,16 @@ h1 {
 }
 
 .book {
-    background-color: azure;
+    background-color: rgb(230, 238, 238);
     font-family: arial;
     font-size: 15px;
   }
+
+.quote {
+  font-family: arial;
+  color: rgb(87, 81, 81);
+  font-size: 15px;
+}
 
 footer {
     text-align: center;
