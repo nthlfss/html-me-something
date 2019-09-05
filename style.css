@@ -1,0 +1,57 @@
+body {
+    background-color: lightslategrey;
+  }
+  
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 25px;
+    border: 1px solid white;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  align-self: center;
+}
+
+.column {
+  width: 300px;
+}
+
+#booklist a:link, a:visited {
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-align: center;
+}
+
+table {
+    width: 65%;
+    background-color: white;
+    margin: 20px auto;
+  }
+
+th {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+.quote {
+  text-align: center;
+  color: rgb(87, 81, 81);
+  font-size: 15px;
+  padding-top: 10%;
+}
+
+.review {
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+}
+
+footer {
+    text-align: center;
+}
