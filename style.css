@@ -28,16 +28,28 @@ h1 {
   text-align: center;
 }
 
-.book {
-    background-color: rgb(230, 238, 238);
-    font-family: arial;
-    font-size: 15px;
+table {
+    width: 65%;
+    background-color: white;
+    margin: 0 auto;
   }
 
+th {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
 .quote {
-  font-family: arial;
+  text-align: center;
   color: rgb(87, 81, 81);
   font-size: 15px;
+  padding-top: 10%;
+}
+
+.review {
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
 }
 
 footer {
